@@ -1,6 +1,9 @@
 import people from "./people.json";
 import planets from "./planets.json";
 import films from "./films.json";
+import starships from "./starships.json";
+import species from "./species.json";
+import vehicles from "./vehicles.json";
 
 export function fakeAPIFetch(options) {
   if (options.url.includes("people")) {
@@ -9,8 +12,34 @@ export function fakeAPIFetch(options) {
     return handleFakeRequestForPlanets(options.url);
   } else if (options.url.includes("films")) {
     return handleFakeRequestForFilms(options.url);
+  } else if (options.url.includes("starships")) {
+    return handleFakeRequestFor(options.url, starships);
+  } else if (options.url.includes("species")) {
+    return handleFakeRequestFor(options.url, species);
+  } else if (options.url.includes("vehicles")) {
+    return handleFakeRequestFor(options.url, vehicles);
   }
   return Promise.resolve({});
+}
+
+function handleFakeRequestFor(url, list) {
+  if (url.includes("search=")) {
+    return handleSearchRequest(url, list);
+  } else if (url.includes("page")) {
+    return handleListRequest(url, list);
+  } else {
+    return handleIndividualRequest(url, list);
+  }
+}
+
+function handleSearchRequest(url, list) {
+  const term = decodeURIComponent(
+    url.split("search=")[1].split("&")[0]
+  ).toLowerCase();
+  const results = list
+    .filter((item) => item.fields.name.toLowerCase().includes(term))
+    .map(turnObjectIntoFakeApiResponse);
+  return fakeNetwork({ results, next: false });
 }
 
 function handleFakeRequestForPeople(url) {

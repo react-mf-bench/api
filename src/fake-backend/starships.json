@@ -1,0 +1,11 @@
+[
+  { "model": "resources.starship", "pk": 1, "fields": { "name": "X-wing", "starship_class": "Starfighter", "manufacturer": "Incom Corporation", "crew": "1", "passengers": "0", "hyperdrive_rating": "1.0", "pilots": [1, 9] } },
+  { "model": "resources.starship", "pk": 2, "fields": { "name": "Millennium Falcon", "starship_class": "Light freighter", "manufacturer": "Corellian Engineering Corporation", "crew": "4", "passengers": "6", "hyperdrive_rating": "0.5", "pilots": [5] } },
+  { "model": "resources.starship", "pk": 3, "fields": { "name": "TIE Advanced x1", "starship_class": "Starfighter", "manufacturer": "Sienar Fleet Systems", "crew": "1", "passengers": "0", "hyperdrive_rating": "1.0", "pilots": [4] } },
+  { "model": "resources.starship", "pk": 4, "fields": { "name": "Star Destroyer", "starship_class": "Star Destroyer", "manufacturer": "Kuat Drive Yards", "crew": "47060", "passengers": "0", "hyperdrive_rating": "2.0", "pilots": [] } },
+  { "model": "resources.starship", "pk": 5, "fields": { "name": "Y-wing", "starship_class": "Assault starfighter", "manufacturer": "Koensayr Manufacturing", "crew": "2", "passengers": "0", "hyperdrive_rating": "1.0", "pilots": [] } },
+  { "model": "resources.starship", "pk": 6, "fields": { "name": "Executor", "starship_class": "Star dreadnought", "manufacturer": "Kuat Drive Yards, Fondor Shipyards", "crew": "279144", "passengers": "38000", "hyperdrive_rating": "2.0", "pilots": [] } },
+  { "model": "resources.starship", "pk": 7, "fields": { "name": "Rebel transport", "starship_class": "Medium transport", "manufacturer": "Gallofree Yards, Inc.", "crew": "6", "passengers": "90", "hyperdrive_rating": "4.0", "pilots": [] } },
+  { "model": "resources.starship", "pk": 8, "fields": { "name": "Slave 1", "starship_class": "Patrol craft", "manufacturer": "Kuat Systems Engineering", "crew": "1", "passengers": "6", "hyperdrive_rating": "3.0", "pilots": [] } },
+  { "model": "resources.starship", "pk": 9, "fields": { "name": "Imperial shuttle", "starship_class": "Armed government transport", "manufacturer": "Sienar Fleet Systems", "crew": "6", "passengers": "20", "hyperdrive_rating": "1.0", "pilots": [1, 3] } }
+]
