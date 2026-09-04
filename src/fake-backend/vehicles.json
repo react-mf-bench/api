@@ -1,10 +1,98 @@
 [
-  { "model": "resources.vehicle", "pk": 1, "fields": { "name": "Sand Crawler", "vehicle_class": "wheeled", "manufacturer": "Corellia Mining Corporation", "crew": "46", "passengers": "30", "pilots": [] } },
-  { "model": "resources.vehicle", "pk": 2, "fields": { "name": "X-34 landspeeder", "vehicle_class": "repulsorcraft", "manufacturer": "SoroSuub Corporation", "crew": "1", "passengers": "1", "pilots": [1] } },
-  { "model": "resources.vehicle", "pk": 3, "fields": { "name": "AT-AT", "vehicle_class": "assault walker", "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research", "crew": "5", "passengers": "40", "pilots": [] } },
-  { "model": "resources.vehicle", "pk": 4, "fields": { "name": "AT-ST", "vehicle_class": "walker", "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research", "crew": "2", "passengers": "0", "pilots": [] } },
-  { "model": "resources.vehicle", "pk": 5, "fields": { "name": "Snowspeeder", "vehicle_class": "airspeeder", "manufacturer": "Incom corporation", "crew": "2", "passengers": "0", "pilots": [1, 9] } },
-  { "model": "resources.vehicle", "pk": 6, "fields": { "name": "TIE bomber", "vehicle_class": "space/planetary bomber", "manufacturer": "Sienar Fleet Systems", "crew": "1", "passengers": "0", "pilots": [] } },
-  { "model": "resources.vehicle", "pk": 7, "fields": { "name": "Speeder bike", "vehicle_class": "speeder", "manufacturer": "Aratech Repulsor Company", "crew": "1", "passengers": "1", "pilots": [1, 5] } },
-  { "model": "resources.vehicle", "pk": 8, "fields": { "name": "Sail barge", "vehicle_class": "sail barge", "manufacturer": "Ubrikkian Industries Custom Vehicle Division", "crew": "26", "passengers": "500", "pilots": [] } }
+  {
+    "model": "resources.vehicle",
+    "pk": 1,
+    "fields": {
+      "name": "Sand Crawler",
+      "vehicle_class": "wheeled",
+      "manufacturer": "Corellia Mining Corporation",
+      "crew": "46",
+      "passengers": "30",
+      "pilots": []
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 2,
+    "fields": {
+      "name": "X-34 landspeeder",
+      "vehicle_class": "repulsorcraft",
+      "manufacturer": "SoroSuub Corporation",
+      "crew": "1",
+      "passengers": "1",
+      "pilots": [1]
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 3,
+    "fields": {
+      "name": "AT-AT",
+      "vehicle_class": "assault walker",
+      "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+      "crew": "5",
+      "passengers": "40",
+      "pilots": []
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 4,
+    "fields": {
+      "name": "AT-ST",
+      "vehicle_class": "walker",
+      "manufacturer": "Kuat Drive Yards, Imperial Department of Military Research",
+      "crew": "2",
+      "passengers": "0",
+      "pilots": []
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 5,
+    "fields": {
+      "name": "Snowspeeder",
+      "vehicle_class": "airspeeder",
+      "manufacturer": "Incom corporation",
+      "crew": "2",
+      "passengers": "0",
+      "pilots": [1, 9]
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 6,
+    "fields": {
+      "name": "TIE bomber",
+      "vehicle_class": "space/planetary bomber",
+      "manufacturer": "Sienar Fleet Systems",
+      "crew": "1",
+      "passengers": "0",
+      "pilots": []
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 7,
+    "fields": {
+      "name": "Speeder bike",
+      "vehicle_class": "speeder",
+      "manufacturer": "Aratech Repulsor Company",
+      "crew": "1",
+      "passengers": "1",
+      "pilots": [1, 5]
+    }
+  },
+  {
+    "model": "resources.vehicle",
+    "pk": 8,
+    "fields": {
+      "name": "Sail barge",
+      "vehicle_class": "sail barge",
+      "manufacturer": "Ubrikkian Industries Custom Vehicle Division",
+      "crew": "26",
+      "passengers": "500",
+      "pilots": []
+    }
+  }
 ]

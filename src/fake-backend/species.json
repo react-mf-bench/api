@@ -1,12 +1,122 @@
 [
-  { "model": "resources.species", "pk": 1, "fields": { "name": "Human", "classification": "mammal", "designation": "sentient", "average_lifespan": "120", "language": "Galactic Basic", "homeworld": 9 } },
-  { "model": "resources.species", "pk": 2, "fields": { "name": "Droid", "classification": "artificial", "designation": "sentient", "average_lifespan": "indefinite", "language": "n/a", "homeworld": null } },
-  { "model": "resources.species", "pk": 3, "fields": { "name": "Wookiee", "classification": "mammal", "designation": "sentient", "average_lifespan": "400", "language": "Shyriiwook", "homeworld": null } },
-  { "model": "resources.species", "pk": 4, "fields": { "name": "Rodian", "classification": "sentient", "designation": "reptilian", "average_lifespan": "unknown", "language": "Galactic Basic", "homeworld": null } },
-  { "model": "resources.species", "pk": 5, "fields": { "name": "Hutt", "classification": "gastropod", "designation": "sentient", "average_lifespan": "1000", "language": "Huttese", "homeworld": null } },
-  { "model": "resources.species", "pk": 6, "fields": { "name": "Yoda's species", "classification": "mammal", "designation": "sentient", "average_lifespan": "900", "language": "Galactic basic", "homeworld": null } },
-  { "model": "resources.species", "pk": 7, "fields": { "name": "Trandoshan", "classification": "reptile", "designation": "sentient", "average_lifespan": "unknown", "language": "Dosh", "homeworld": null } },
-  { "model": "resources.species", "pk": 8, "fields": { "name": "Mon Calamari", "classification": "amphibian", "designation": "sentient", "average_lifespan": "unknown", "language": "Mon Calamarian", "homeworld": null } },
-  { "model": "resources.species", "pk": 9, "fields": { "name": "Ewok", "classification": "mammal", "designation": "sentient", "average_lifespan": "unknown", "language": "Ewokese", "homeworld": null } },
-  { "model": "resources.species", "pk": 10, "fields": { "name": "Sullustan", "classification": "mammal", "designation": "sentient", "average_lifespan": "unknown", "language": "Sullutese", "homeworld": null } }
+  {
+    "model": "resources.species",
+    "pk": 1,
+    "fields": {
+      "name": "Human",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_lifespan": "120",
+      "language": "Galactic Basic",
+      "homeworld": 9
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 2,
+    "fields": {
+      "name": "Droid",
+      "classification": "artificial",
+      "designation": "sentient",
+      "average_lifespan": "indefinite",
+      "language": "n/a",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 3,
+    "fields": {
+      "name": "Wookiee",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_lifespan": "400",
+      "language": "Shyriiwook",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 4,
+    "fields": {
+      "name": "Rodian",
+      "classification": "sentient",
+      "designation": "reptilian",
+      "average_lifespan": "unknown",
+      "language": "Galactic Basic",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 5,
+    "fields": {
+      "name": "Hutt",
+      "classification": "gastropod",
+      "designation": "sentient",
+      "average_lifespan": "1000",
+      "language": "Huttese",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 6,
+    "fields": {
+      "name": "Yoda's species",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_lifespan": "900",
+      "language": "Galactic basic",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 7,
+    "fields": {
+      "name": "Trandoshan",
+      "classification": "reptile",
+      "designation": "sentient",
+      "average_lifespan": "unknown",
+      "language": "Dosh",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 8,
+    "fields": {
+      "name": "Mon Calamari",
+      "classification": "amphibian",
+      "designation": "sentient",
+      "average_lifespan": "unknown",
+      "language": "Mon Calamarian",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 9,
+    "fields": {
+      "name": "Ewok",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_lifespan": "unknown",
+      "language": "Ewokese",
+      "homeworld": null
+    }
+  },
+  {
+    "model": "resources.species",
+    "pk": 10,
+    "fields": {
+      "name": "Sullustan",
+      "classification": "mammal",
+      "designation": "sentient",
+      "average_lifespan": "unknown",
+      "language": "Sullutese",
+      "homeworld": null
+    }
+  }
 ]

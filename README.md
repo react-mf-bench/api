@@ -6,6 +6,40 @@ An in-browser javascript module for communication with the API
 
 This is an example microfrontend repo demonstrating how to use [single-spa](https://single-spa.js.org). You can see the code running at https://react.microfrontends.app.
 
+## Usage
+
+```js
+import { fetchWithCache } from "@react-mf/api";
+
+fetchWithCache("people/1/").subscribe((person) => {
+  person.homeworld; // "1"  — a bare id
+});
+```
+
+Records reference each other by id. Pass `expand` and the data layer resolves
+those references for you, so apps never have to make the follow-up requests
+themselves:
+
+```js
+fetchWithCache("people/1/", { expand: ["homeworld", "films"] }).subscribe(
+  (person) => {
+    person.homeworld.name; // "Tatooine" — a whole planet record
+    person.films[0].title; // "A New Hope"
+  }
+);
+```
+
+- Works the same on a single record and on list or search responses — for a
+  list, every record in `results` is expanded and the `next` flag is preserved.
+- Expandable relations: `characters`, `films`, `homeworld`, `pilots`,
+  `planets`, `residents`, `species`, `starships`, `vehicles`. Asking for
+  anything else throws. Relations that are absent or empty are left alone.
+- Expansion is one level deep, and it is opt-in: without `expand` the response
+  is exactly what it always was.
+- Related records go through the same cache as everything else, so a relation
+  shared by several records is only fetched once, and the cached response
+  itself is never mutated.
+
 ## How does it work?
 
 [Full article](https://single-spa.js.org/docs/recommended-setup)
